@@ -1,9 +1,14 @@
 body{
-    background-color: rgb(101, 97, 97);
+    background-color: gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     ;
 }
-
+.idk{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 6rem;
+    text-align: center;
+}
 .button{
     float: right;
     border-radius: 1rem;
@@ -41,4 +46,20 @@ a{
 .btn-secondary{
     --bs-btn-bg: black;
     margin-right: 3rem;
+}
+.card-img-bottom{
+    width: 40%;
+    margin-left: 25rem;  
+    height: 50rem;
+}
+.card-img-top{
+    width: 40%;
+    margin-left: 25rem;  
+    height: 50rem;
+}
+.card-body{
+    background-color: gray;
+}
+.card{
+    background-color: gray;
 }
